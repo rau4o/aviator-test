@@ -169,6 +169,7 @@ export class GameComponent {
   private resetCoefficients(): void {
     this.startCoefficient = 1.0;
     this.currentIndex = 0;
+    console.log(123);
   }
 
   public login(): void {
