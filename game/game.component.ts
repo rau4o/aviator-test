@@ -164,7 +164,6 @@ export class GameComponent {
         }, 100);
       }
     }, 5000);
-
   }
 
   private resetCoefficients(): void {
