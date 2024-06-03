@@ -90,6 +90,7 @@ export class GameComponent {
         }));
         this.myBetsList = transformedData;
       })
+
   }
 
   private getRooms(): void {
