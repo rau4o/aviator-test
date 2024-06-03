@@ -20,9 +20,11 @@
       FLEW AWAY!
     </div>
     <div class="sum" [ngClass]="{'color-red': isFlewAway}">
-      waiting for next round
-      <img src="assets/images/loading.svg" alt="">
-      {{startCoefficient.toFixed(2)}}x
+<!--      {{startCoefficient.toFixed(2)}}x-->
+    </div>
+    <div class="sum" style="display: flex;flex-direction: column; align-items: center; justify-content: center; color: #ffffff">
+      <span style="font-size: 14px">Waiting for next round</span>
+      <img src="assets/images/loading.svg" alt="" style="width: 50px; height: 50px;">
     </div>
     <ng-lottie
       [options]="options"
